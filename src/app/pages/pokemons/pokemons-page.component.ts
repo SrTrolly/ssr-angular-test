@@ -2,7 +2,7 @@
 import { ApplicationRef, ChangeDetectionStrategy, Component, effect, inject, OnDestroy, OnInit, signal } from '@angular/core';
 import { PokemonListComponent } from "../../pokemons/components/pokemon-list/pokemon-list.component";
 import { PokemonListSkeletonComponent } from "./ui/pokemon-list-skeleton/pokemon-list-skeleton.component";
-import { PokemonsService } from '../../pokemons/services/Pokemos.service';
+import { PokemonsService } from '../../pokemons/services/pokemos.service';
 import { SimplePokemon } from '../../pokemons/interfaces';
 import { ActivatedRoute, Router, RouterLink } from '@angular/router';
 import { toSignal } from '@angular/core/rxjs-interop';

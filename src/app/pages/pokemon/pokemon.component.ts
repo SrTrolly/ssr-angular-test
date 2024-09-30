@@ -1,7 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { ChangeDetectionStrategy, Component, inject, OnInit, signal } from '@angular/core';
 import { Pokemon } from '../../pokemons/interfaces';
-import { PokemonsService } from '../../pokemons/services/Pokemos.service';
+import { PokemonsService } from '../../pokemons/services/pokemos.service';
 import { ActivatedRoute } from '@angular/router';
 import { tap } from 'rxjs';
 import { Meta, Title } from '@angular/platform-browser';
